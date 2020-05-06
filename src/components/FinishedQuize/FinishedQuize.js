@@ -1,7 +1,6 @@
 import React from "react";
 import classes from "./FinishedQuize.module.css";
 import Button from './../UI/Button/Button';
-import { Link } from 'react-router-dom'
 
 const FinishedQuize = (props) => {
   const successCount = Object.values(props.results).reduce((total, value) => {
